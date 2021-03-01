@@ -1,0 +1,168 @@
+
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  margin: 50px auto 0; /* or margin : 0 auto 0 auto 
+  font-family: "Sacramento", cursive;*/
+  font-size: 562.5%; /* 100% = 16px =1em   if i mention font size for body element say x% then total font for h1=(x+fontapplied in h1)%
+                                               if dont want to do that use "rem" instead of em or %*/
+  color: #66bfbf;
+  line-height: 2; /*without any units*/
+  font-family: "Dancing Script", cursive;
+}
+
+a {
+  color: #eaf6f6;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  margin: 0 20px 0 20px;
+}
+
+.cc:hover
+{
+  color: #aaaaaa;
+}
+
+a:hover
+{
+ color: #161d6f;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 40px;
+}
+.myimage {
+  height: 250px;
+}
+span {
+  text-decoration: underline;
+}
+
+.cloud-top {
+  position: absolute;
+  right: 300px;
+  top: 50;
+}
+
+.cloud-bottom {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.subtitle {
+  font-weight: normal;
+}
+
+.tempimage1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.tempimage2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+hr {
+  margin: 75px auto;
+  border-style: dotted none none;
+  color: lightgrey;
+  border-width: 5px;
+  width: 5%;
+}
+
+.copyright {
+  font-size: 1rem;
+  color: #eaf6f6;
+  padding: 20px 0 0;
+}
+
+.btn {
+  background: rgba(9, 218, 187, 0.74);
+  background-image: -webkit-linear-gradient(top, rgba(9, 218, 187, 0.74), #1EC4D0);
+  background-image: -moz-linear-gradient(top, rgba(9, 218, 187, 0.74), #1EC4D0);
+  background-image: -ms-linear-gradient(top, rgba(9, 218, 187, 0.74), #1EC4D0);
+  background-image: -o-linear-gradient(top, rgba(9, 218, 187, 0.74), #1EC4D0);
+  background-image: -webkit-gradient(to bottom, rgba(9, 218, 187, 0.74), #1EC4D0);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 10px;
+  line-height: 10px;
+  color: #FFFFFF;
+  font-family: Verdana;
+  width: 141px;
+  font-size: 21px;
+  font-weight: 100;
+  padding: 20px;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.cc
+{
+  color: black;
+  margin: 0;
+}
+
+.contact-msg
+{
+  width: 30%;
+  margin: 50px auto 50px;
+}
